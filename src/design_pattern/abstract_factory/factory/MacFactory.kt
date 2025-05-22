@@ -1,4 +1,12 @@
 package design_pattern.abstract_factory.factory
 
-class MacFactory {
+import design_pattern.abstract_factory.impls.mac.MacButton
+import design_pattern.abstract_factory.impls.mac.MacCheckbox
+import design_pattern.abstract_factory.interfaces.Button
+import design_pattern.abstract_factory.interfaces.Checkbox
+
+class MacFactory : GUIFactory {
+    override fun createButton(): Button = MacButton()
+    override fun createCheckbox(): Checkbox = MacCheckbox()
+
 }

@@ -1,4 +1,8 @@
 package design_pattern.abstract_factory.impls.window
 
-class WindowButton {
+import design_pattern.abstract_factory.interfaces.Button
+
+class WindowButton : Button {
+    override fun render(): String = "Rendering a Window style button"
+
 }
