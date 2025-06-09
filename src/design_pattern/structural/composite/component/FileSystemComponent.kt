@@ -1,4 +1,4 @@
-package design_pattern.structural.composite
+package design_pattern.structural.composite.component
 
 interface FileSystemComponent {
     val name : String

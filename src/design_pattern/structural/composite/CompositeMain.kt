@@ -1,5 +1,8 @@
 package design_pattern.structural.composite
 
+import design_pattern.structural.composite.composite.Directory
+import design_pattern.structural.composite.leaf.File
+
 fun main(){
     val file1 = File("hello.txt",10)
     val file2 = File("data.csv",30)

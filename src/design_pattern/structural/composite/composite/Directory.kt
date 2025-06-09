@@ -1,4 +1,6 @@
-package design_pattern.structural.composite
+package design_pattern.structural.composite.composite
+
+import design_pattern.structural.composite.component.FileSystemComponent
 
 class Directory(override val name: String) : FileSystemComponent {
 
