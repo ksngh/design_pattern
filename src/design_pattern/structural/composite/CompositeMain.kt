@@ -12,9 +12,13 @@ fun main(){
     val dir2 = Directory("Pictures")
     dir2.add(file3)
 
+    val dir3 = Directory("Data")
+    dir3.add(file2)
+
     val root = Directory("Root")
     root.add(dir1)
     root.add(dir2)
+    root.add(dir3)
 
     root.show()
 }
