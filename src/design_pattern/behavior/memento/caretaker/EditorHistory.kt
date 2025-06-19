@@ -1,7 +1,7 @@
-package design_pattern.behaviror.memento.caretaker
+package design_pattern.behavior.memento.caretaker
 
-import design_pattern.behaviror.memento.memento.EditorMemento
-import design_pattern.behaviror.memento.originator.Editor
+import design_pattern.behavior.memento.memento.EditorMemento
+import design_pattern.behavior.memento.originator.Editor
 
 class EditorHistory {
 

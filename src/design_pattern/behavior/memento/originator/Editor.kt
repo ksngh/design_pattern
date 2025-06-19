@@ -1,6 +1,6 @@
-package design_pattern.behaviror.memento.originator
+package design_pattern.behavior.memento.originator
 
-import design_pattern.behaviror.memento.memento.EditorMemento
+import design_pattern.behavior.memento.memento.EditorMemento
 
 class Editor {
     private var content : String = ""
